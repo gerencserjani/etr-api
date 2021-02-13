@@ -25,9 +25,9 @@ app.post("/execute", async (req, res) => {
 });
 
 
-app.post("/execute", async (req, res) => {
+app.get("/", async (req, res) => {
 
-  res.send("api s working");
+  res.send("api is working");
 
 });
 
